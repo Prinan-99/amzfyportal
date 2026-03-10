@@ -3,7 +3,7 @@ import React from 'react';
 import { PORTAL_OPTIONS } from './constants';
 import PortalCard from './components/PortalCard';
 import VisualEffects from './components/VisualEffects';
-import { Layers, Zap, Globe, Github, Linkedin } from 'lucide-react';
+import { Layers, Zap, Globe, Github, Linkedin, Mail, TrendingUp } from 'lucide-react';
 
 const TEAM_MEMBERS = [
   {
@@ -71,6 +71,16 @@ const App: React.FC = () => {
                 <Zap className="text-indigo-400 mb-4" size={24} />
                 <h4 className="font-semibold text-white mb-2">Real-time Sync</h4>
                 <p className="text-sm text-zinc-500">Instant inventory and order updates across all three operational layers.</p>
+              </div>
+              <div className="rounded-2xl bg-white/5 border border-white/5 p-6 hover:bg-white/[0.07] transition-colors">
+                <Mail className="text-pink-400 mb-4" size={24} />
+                <h4 className="font-semibold text-white mb-2">Marketing Suite</h4>
+                <p className="text-sm text-zinc-500">Built-in email automation and social media management to drive seller growth.</p>
+              </div>
+              <div className="rounded-2xl bg-white/5 border border-white/5 p-6 hover:bg-white/[0.07] transition-colors">
+                <TrendingUp className="text-amber-400 mb-4" size={24} />
+                <h4 className="font-semibold text-white mb-2">Advanced Analytics</h4>
+                <p className="text-sm text-zinc-500">Deep insights and predictive modeling to optimize business performance.</p>
               </div>
               <div className="rounded-2xl bg-white/5 border border-white/5 p-6 hover:bg-white/[0.07] transition-colors sm:col-span-2">
                 <div className="flex items-center gap-4">

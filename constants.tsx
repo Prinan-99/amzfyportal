@@ -15,7 +15,7 @@ export const PORTAL_OPTIONS: PortalOption[] = [
   {
     role: UserRole.SELLER,
     title: 'Seller Central',
-    description: 'List your products, manage inventory, and scale your business globally.',
+    description: 'List products, manage inventory, and scale with email automation tools and social media management options.',
     icon: 'Store',
     color: 'from-emerald-500 to-teal-600',
     link: 'https://your-seller-hub-url.vercel.app/'
